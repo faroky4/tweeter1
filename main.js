@@ -4,7 +4,7 @@ const rend = Renderer()
 const posts = tweet.getPosts()
 rend.renderPosts(posts)
 
-const post2 = function () {
+const addNewPost = function () {
     let postText = $("#input").val()
     $(input).val("")
     tweet.addPost(postText)
